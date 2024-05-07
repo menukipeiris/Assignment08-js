@@ -1,0 +1,42 @@
+body{
+    background-color: gainsboro;
+ }
+ main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+ }
+
+#boxes{
+    display: flex;
+
+ }
+
+#boxes>div{
+    width: 250px;
+ }
+
+#boxes>div>img{
+    width: 250px;
+ }
+
+#boxes>div>div{
+    display: inline-block;
+    position: relative;
+    bottom: 179px;
+    left: 205px;
+    margin: auto;
+    width: 50px;
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: large;
+ }
+
+#home-image{
+    border-radius: 100px;
+    width: 380px;
+    height: 300px;
+ }
+
